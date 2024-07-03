@@ -5,6 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import {Navbar} from "./Navbar.jsx";
 import {Hero} from "./Hero.jsx";
 import { CardRow } from "./CardRow.jsx";
+import {BottomBar} from "./BottomBar.jsx";
 
 const Home = () => {
 	return (
@@ -14,8 +15,11 @@ const Home = () => {
 				</div>	
 				<div class="max-w-5xl m-auto">
 					<Hero/>
-					<CardRow/>
+					<div class="my-10">
+						<CardRow/>
+					</div>
 				</div>
+				<BottomBar/>
 			</div>
 		);
 };
